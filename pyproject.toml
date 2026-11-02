@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "bgarich-autoperceive_jd431"
+name = "bgarich-pipeline_data_skew_threshold_scan"
 version = "0.1.0"
 description = "为每一项打分并与阈值比较，明确标出通过、边界与不通过三档"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://bgarich.github.io"
-Repository = "https://github.com/bgarich/autoperceive_jd431"
-Issues = "https://github.com/bgarich/autoperceive_jd431/issues"
+Repository = "https://github.com/bgarich/pipeline_data_skew_threshold_scan"
+Issues = "https://github.com/bgarich/pipeline_data_skew_threshold_scan/issues"
 
 [project.scripts]
-autoperceive_jd431 = "autoperceive_jd431:main"
+pipeline_data_skew_threshold_scan = "pipeline_data_skew_threshold_scan:main"
 
 [tool.setuptools]
-py-modules = ["autoperceive_jd431"]
+py-modules = ["pipeline_data_skew_threshold_scan"]
